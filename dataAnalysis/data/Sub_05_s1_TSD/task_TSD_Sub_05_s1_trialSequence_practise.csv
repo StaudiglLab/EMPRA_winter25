@@ -1,0 +1,8 @@
+trialIndex,blockId,trialType,fixationDurationInSec,fixPosition,shapeInit,contrastInit,targetPosition,displacement,response,result
+0,pract,Step,1.134,0,1,1,8,-1.5,RightResponse,incorrect
+1,pract,Change,1.241,0,0,0,-6,0.0,LeftResponse,correct
+2,pract,Step,0.665,0,0,0,6,1.5000000000000004,RightResponse,correct
+3,pract,Blank,0.85,0,0,0,-8,-1.5,LeftResponse,correct
+4,pract,Change,0.785,0,1,1,8,0.0,RightResponse,correct
+5,pract,Blank,0.794,0,1,1,-8,1.5000000000000004,RightResponse,correct
+6,pract,Step,1.22,0,0,1,8,-1.5,RightResponse,incorrect
