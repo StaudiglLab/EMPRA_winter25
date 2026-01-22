@@ -20,5 +20,11 @@ This folder of the repository contains the data (except the raw eyetracker data)
     - Dividing the second column by the third would give you the the ratio of forward responses. This is what is typically plotted as a function of displacement. (e.g. Figure 2 of Tas & Parker 2023)
     - These files were generated from the raw data files using the code *getPsychometry.py*
 
+## Generating figures and statistic for the report
+
+- run *generateAll.py*
+    - if you're part of the contrast group run with *whichExp='contrast'*
+    - if you're part of the shape group run it with *whichExp='shape'*
+
 
 
