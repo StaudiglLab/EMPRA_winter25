@@ -84,11 +84,11 @@ def testHypothesis2And3(whichExp,whichParam='jnd',whichComparision='Blank'):
     print("Comparing %s of %s and %s-change conditions"%(whichParam,whichComparision,whichExp))
     print("-------------")
 
-    print("Mean of %s for %s condition:%.2f"%(whichParam,whichComparision,np.mean(paramNoBlank)))
-    print("Standard Deviation of %s for %s condition:%.2f"%(whichParam,whichComparision,np.std(paramNoBlank)))
+    print("Mean of %s for %s condition:%.2f"%(whichParam,whichComparision,np.mean(param1)))
+    print("Standard Deviation of %s for %s condition:%.2f"%(whichParam,whichComparision,np.std(param1)))
 
-    print("Mean of %s for %s-change condition:%.2f"%(whichParam,whichExp,np.mean(paramBlank)))
-    print("Standard Deviation of %s for %s-change condition:%.2f"%(whichParam,whichExp,np.std(paramBlank)))
+    print("Mean of %s for %s-change condition:%.2f"%(whichParam,whichExp,np.mean(paramChange)))
+    print("Standard Deviation of %s for %s-change condition:%.2f"%(whichParam,whichExp,np.std(paramChange)))
 
     plotComparisions(param1,paramChange,labels=[whichComparision,'%s-change'%whichExp],ylabel=ylabel)
     print("-------------")

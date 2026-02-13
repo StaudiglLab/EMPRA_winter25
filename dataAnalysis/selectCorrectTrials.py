@@ -51,7 +51,7 @@ def getTrialNumberSummary(subIDs,trialTypes=['Blank','Step','Change']):
     for iSub in range(len(subIDs)):
         df=pd.read_csv("./data/Sub_%s_s1_TSD/task_TSD_Sub_%s_s1_trialSequence.csv"%(subIDs[iSub],subIDs[iSub]))
         df=df[df['response'].values!='NoSaccadeMade']
-        selmask= np.loadtxt("outfiles/trialSelection/Sub_%s.txt"%subIDs[iSub])>0.5
+        selmask= np.loadtxt("data_derived/trialSelection/Sub_%s.txt"%subIDs[iSub])>0.5
         print(subIDs[iSub])
         print(len(selmask),len(df))
         dfTrials.loc[iSub,'subID']=subIDs[iSub]   
